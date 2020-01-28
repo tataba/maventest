@@ -18,5 +18,5 @@ jobs:
     
     - name: deploy the Maven
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: mvn deploy -Dregistry=https://maven.pkg.github.com/tataba -Dtoken=GITHUB_TOKEN
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: mvn deploy -Dregistry=https://maven.pkg.github.com/tataba -Dtoken=GH_TOKEN
