@@ -4,7 +4,7 @@
 
   <groupId>com.tataba.abc</groupId>
   <artifactId>maventest</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.4</version>
   <packaging>jar</packaging>
 
   <name>maventest</name>
