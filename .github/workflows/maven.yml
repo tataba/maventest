@@ -20,7 +20,7 @@ jobs:
     
     - name: mvn deploy
       env:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.reposecret }}
       run: mvn deploy -Dregistry=https://maven.pkg.github.com/tataba -Dtoken=repo-token
       
     - name: Run a one-line script
